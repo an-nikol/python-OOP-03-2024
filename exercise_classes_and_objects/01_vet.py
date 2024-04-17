@@ -4,7 +4,7 @@ class Vet:
 
     def __init__(self, name):
         self.name = name
-                    self.animals = []
+        self.animals = []
 
     def register_animal(self, animal_name):
         if Vet.space:
